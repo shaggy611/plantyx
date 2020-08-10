@@ -58,21 +58,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-._app-store-btn-features > img {
-  width: 222px;
-  height: 74px;
-}
-
 .transition_disabled {
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
   -o-transition: none !important;
   transition: none !important;
-}
-
-._font-weight-600 {
-  font-weight: 600;
 }
 
 ._heading-main-font {
@@ -83,39 +74,25 @@ body {
 }
 
 ._paragraph-main-font {
-
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #15382F;
 }
 
-._app-store-btn {
-  padding: 0;
+._second-heading-main-font {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: #2E6455;
 }
 
-._margin-bottom-24 {
-  margin-bottom: 24px;
+._margin-top-50 {
+  margin-top: 50px;
 }
 
-._margin-right-5 {
-  margin-right: 5px;
-}
-
-._margin-right-24 {
-  margin-right: 24px;
-}
-
-._margin-right-26 {
-  margin-right: 26px;
-}
-
-._margin-top-17 {
-  margin-top: 17px;
-}
-
-._margin-top--10 {
-  margin-top: -10px;
-}
-
-._margin-left-30 {
-  margin-left: 30px;
+._margin-top-160 {
+  margin-top: 160px;
 }
 
 section {
@@ -129,10 +106,6 @@ section {
   overflow-y: hidden;
 }
 
-._margin-top-70 {
-  margin-top: 70px;
-}
-
 a:hover {
   text-decoration: none;
 }
@@ -141,46 +114,159 @@ a:hover {
   display: none;
 }
 
-.header__app-store-download_width {
+.__app-store-download-button {
   max-width: 285px;
+}
+
+._app-store-btn {
+  padding: 0 !important;
 }
 
 /*=================================================================*/
 
-.header_background-color-patterns {
-
+.header_background {
+  background: url("/img/header-bg.png") no-repeat -36% 93%;
+  background-size: 71%;
 }
 
 .header_padding {
-  padding-bottom: 44px;
-  padding-top: 164px;
+  padding-top: 138px;
+  padding-bottom: 217px;
+  margin-bottom: 24px;
 }
 
 .header__logo {
   max-width: 119px;
+  margin-bottom: 40px;
 }
 
 
 .header__heading {
-  margin-bottom: 20px;
-  width: 590px;
+  width: 692px;
+  text-align: center;
 }
 
 .header__paragraph {
-  color: #ffffff;
-  margin-bottom: 48px;
+  margin-bottom: 43px;
+  text-align: center;
+  width: 545px;
 }
 
-.header__banner-img_position {
-  
+.features_padding {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.features__background {
+  background-image: url("/img/feature-flower-bg.png");
+  background-size: 95%;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  /* background-position: 151% 112%; */
+  background-position: 388% 105%;
+}
+
+.features__heading {
+  margin-bottom: 80px;
+}
+
+.features__plant-identific-img {
+  max-width: 473px;
+}
+
+.features__daily-care-img {
+  max-width: 453px;
+}
+
+.features__plant-database-img {
+  max-width: 471px;
+}
+
+.features__how-use-app-img {
+  max-width: 484px;
+}
+
+.features__text-block-wrapper {
+  margin: auto;
+}
+
+.features_second-heading {
+  margin-bottom: 16px;
+  width: 414px;
+}
+
+.features__paragraph {
+  max-width: 488px;
+}
+
+.features__step-wrapper {
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+.features__step {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #15382F;
+  margin-top: 20px;
+  max-width: 130px;
+  display: block;
+  margin-right: auto;
+}
+
+.features__step_first {
+  max-width: 120px;
+}
+
+.step > img {
+  max-width: 130px;
+  display: block;
+  margin-right: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonials_background {
+  background: #F3FAFE;
 }
 
 .testimonials_padding {
-  padding-top: 118px;
-  padding-bottom: 278px;
+  padding-top: 80px;
+  padding-bottom: 10px;
 }
 .testimonials__heading {
-  margin-bottom: 50px;
+  margin-bottom: 76px;
 }
 
 .testimonials__slider {
@@ -197,111 +283,70 @@ a:hover {
 
 .testimonials__slider-item {
   background: #ffffff;
-  -webkit-box-shadow: 0px 8px 20px rgba(128, 125, 125, 0.2);
-  -moz-box-shadow: 0px 8px 20px rgba(128, 125, 125, 0.2);
-  box-shadow: 0px 8px 20px rgba(128, 125, 125, 0.2);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  width: 380px !important;
+  box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
+  width: 387px !important;
   display: block;
   padding-top: 40px;
-  padding-bottom: 63px;
+  padding-bottom: 40px;
   margin-bottom: 30px;
   margin-top: 30px;
   margin-left: 15px !important;
   margin-right: 15px !important;
   z-index: 100;
   position: relative;
-  height: 259px;
+  min-height: 365px;
+  height: auto;
+  text-align: center;
 }
 
 .testimonials__slider-item-photo {
-  position: absolute;
-  top: -10%;
-  left: 75%;
-  width: 60px;
-  z-index: 100;
+  width: 88px;
 }
 
 .testimonials__slider-item-heading {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 34px;
-  margin-left: 30px;
-  margin-bottom: 14px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #2E6455;
+  margin-top: 16px;
+  margin-bottom: 12px;
 }
 
 .testimonials__slider-item-rate {
-  margin-left: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: -moz-box;
   display: flex;
+  justify-content: center;
 }
 
 .testimonials__slider-item-comment {
-  width: 320px;
-  margin-right: 30px;
-  margin-top: 24px;
-  margin-left: 30px;
+  max-width: 325px;
+  font-weight: normal;
   font-size: 18px;
-  line-height: 28px;
-  color: #3f3e41;
+  line-height: 150%;
+  text-align: center;
+  color: #15382F;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
 }
 
 .footer_padding {
-  padding-top: 108px;
+
 }
+
 
 .footer_background {
 
 }
 
 .footer__heading {
-  margin-bottom: 42px;
-}
-
-.footer__terms {
 
 }
 
-.footer__terms:hover {
-  color: #ffffff;
-}
-
-.footer__copyright {
-  color: #ffffff;
-  margin-bottom: 20px;
-  margin-top: 201px;
-}
-
-.terms-footer__copyright {
-  color: #ffffff;
-  margin-bottom: 26px;
-  margin-top: 26px;
-}
-
-.terms-of-use_heading {
-  color: #09090b;
-}
-
-.terms-of-use_like-second-heading {
-
-}
-
-.terms__list {
-  list-style-type: disc;
-  margin-left: 60px;
-}
-
-.terms__footer {
-  background-color: #09090b;
-}
-
-.terms-page__footer_margin {
-  margin-top: 26px !important;
-}
 
 
