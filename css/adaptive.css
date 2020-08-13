@@ -16,9 +16,65 @@
 
       ._paragraph-main-font {
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 21px;
       }
+
+      ._heading-main-font {
+        font-size: 36px;
+        line-height: 47px;
+      }
+
+      .header__logo {
+        max-width: 76px;
+        margin-bottom: 30px;
+    }
+
+    .header_padding {
+      padding-top: 60px;
+      padding-bottom: 1px;
+      margin-bottom: 0;
+  }
+
+  .header__paragraph {
+    margin-bottom: 68px;
+    text-align: center;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header__heading {
+  text-align: center;
+  margin-bottom: 5px;
+  width: 335px;
+  margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.__app-store-download-button {
+  max-width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       .header__terms-policy-plantyx-logo {
         max-width: 165px;
@@ -51,6 +107,10 @@
         width: 335px;
         margin-left: auto;
         margin-right: auto;
+      }
+
+      .terms-policy__text-wrapper > ._paragraph-main-font {
+        font-size: 14px;
       }
 
       .footer__terms-policy-links, .footer__terms-policy-links > a {

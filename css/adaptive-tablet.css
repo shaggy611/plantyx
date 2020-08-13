@@ -187,18 +187,6 @@
     margin-bottom: 8px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
     ._third-heading-main-font {
         font-size: 24px;
         line-height: 29px;
@@ -222,6 +210,10 @@
         width: 688px;
         margin-left: auto;
         margin-right: auto;
+      }
+
+      .terms-policy__text-wrapper > p {
+          font-size: 16px !important;
       }
 
       ._margin-top-60 {
