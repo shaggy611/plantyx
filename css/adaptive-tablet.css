@@ -1,10 +1,252 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+    .header__logo {
+        max-width: 76px;
+        margin-bottom: 24px;
+    }
+
+    .header_padding {
+        padding-top: 40px;
+        padding-bottom: 615px;
+        margin-bottom: 0;
+    }
+
+    .header__heading {
+        width: 692px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    ._heading-main-font {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .header__paragraph {
+        margin-bottom: 47px;
+        text-align: center;
+        width: 545px;
+    }
+
+    .__app-store-download-button {
+        max-width: 210px;
+    }
+
+    .header__banner-img {
+        max-width: 801px;
+        position: absolute;
+        left: 1%;
+        transform: translate(-110px, -262px);
+    }
+
+    .features_padding {
+        padding-top: 0;
+        padding-bottom: 105px;
+    }
+
+    .features__heading {
+        margin-bottom: 50px;
+    }
+
+    .features_second-heading {
+        margin-bottom: 24px;
+        width: auto;
+        text-align: center;
+    }
+
+    .features__paragraph {
+        max-width: 453px;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features__plant-identific-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+
+    .features__daily-care-img {
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+
+    .features__plant-database-img {
+        margin-top: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .how-to-use__steps_wrapper {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .how-to-use__steps_wrapper > .features__paragraph {
+          max-width: 590px;
+          margin-bottom: 51px;
+      }
+
+      .step_three__img {
+          margin-right: 0 !important;
+      }
+
+      .features__step-wrapper {
+        margin-top: 0;
+        margin-bottom: 51px;
+        justify-content: center;
+    }
+
+    .how-to-use__steps_wrapper > a {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .features__how-use-app-img {
+        max-width: 475px;
+        margin-top: 80px;
+    }
+
+    .testimonials_padding {
+        padding-top: 70px;
+        padding-bottom: 45px;
+    }
+
+    .download__iphone-img {
+        display: none;
+    }
+
+    .download_padding {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .download__text-section-wrapper {
+        text-align: center;
+    }
+
+    .download__heading {
+        width: 632px;
+    }
+
+    .social__plantyx-logo {
+        margin-left: 74px;
+    }
+
+    .terms-footer__terms, .terms-footer__terms > a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .social__social-ico-wrapper {
+        margin-right: 82px;
+    }
+
+    .terms-footer__terms {
+        margin-left: 74px;
+    }
+
+    .footer__copyright {
+        margin-right: 77px;
+    }
+
+    .testimonials__slider {
+    width: 768px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
 }
 
-@media (min-width: 1200px) and (max-width: 1300px) {
-
+.testimonials__slider-item {
+    width: 572px !important;
+    margin-left: 97px !important;
+    margin-bottom: 12px;
 }
 
-@media (min-width: 1300px) and (max-width: 1500px) {
+.testimonials__flower-big {
+    left: 3%;
+}
 
+.testimonials__flower-small {
+    left: 80.5%;
+}
+
+.testimonials__heading {
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ._third-heading-main-font {
+        font-size: 24px;
+        line-height: 29px;
+      }
+
+      .header__terms-policy-logo {
+        display: block;
+        max-width: 688px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .footer__terms-policy-links {
+        max-width: 688px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .terms-policy__text-wrapper {
+        width: 688px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      ._margin-top-60 {
+        margin-top: 40px;
+      }
+
+      .header__terms-policy-plantyx-logo {
+        max-width: 165px;
+    }
+
+    .terms-policy {
+        padding-top: 79px;
+    }
+
+    .footer__terms-policy {
+        margin-top: 52px;
+        padding-bottom: 40px;
+    }
+
+    .terms-policy__bg-wrapper {
+        background: url("/img/terms-policy-bg-2.png")  no-repeat right top;
+        background-size: 48%;
+      }
+
+      .header__terms-policy {
+        padding-top: 48px;
+    }
 }

@@ -2,4 +2,69 @@
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
+    
+
+    ._third-heading-main-font {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      ._second-heading-main-font {
+        font-size: 36px;
+        line-height: 47px;
+      }
+
+      ._paragraph-main-font {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+      }
+
+      .header__terms-policy-plantyx-logo {
+        max-width: 165px;
+    }
+
+    .terms-policy {
+        padding-top: 59px;
+    }
+
+    .footer__terms-policy {
+        margin-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .header__terms-policy-logo {
+        display: block;
+        max-width: 335px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .footer__terms-policy-links {
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .terms-policy__text-wrapper {
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .footer__terms-policy-links, .footer__terms-policy-links > a {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      .terms-policy__bg-wrapper {
+        background: url("/img/terms-policy-bg-2.png")  no-repeat;
+        background-position: 105% -0.1%;
+        background-size: 68%;
+      }
+
+      .header__terms-policy {
+        padding-top: 60px;
+    }
 }

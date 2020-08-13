@@ -87,12 +87,31 @@ body {
   color: #2E6455;
 }
 
-._margin-top-50 {
-  margin-top: 50px;
+._third-heading-main-font {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  color: #2E6455;
 }
 
-._margin-top-160 {
-  margin-top: 160px;
+._margin-top-60 {
+  margin-top: 60px;
+}
+
+._margin-top-28 {
+  margin-top: 28px;
+}
+
+._margin-top-24 {
+  margin-top: 24px;
+}
+
+._margin-top-17 {
+  margin-top: 17px;
+}
+
+._margin-top-50 {
+  margin-top: 50px;
 }
 
 section {
@@ -125,14 +144,25 @@ a:hover {
 /*=================================================================*/
 
 .header_background {
-  background: url("/img/header-bg.png") no-repeat -36% 93%;
-  background-size: 71%;
+  /* background: url("/img/header-bg.png") no-repeat -36% 93%;
+  background-size: 71%; */
 }
 
 .header_padding {
   padding-top: 138px;
   padding-bottom: 217px;
   margin-bottom: 24px;
+}
+
+.header__banner-img-wrapper {
+  /* position: relative; */
+}
+
+.header__banner-img {
+  max-width: 1360px;
+  position: absolute;
+  top: -80%;
+  left: -110%;
 }
 
 .header__logo {
@@ -144,6 +174,7 @@ a:hover {
 .header__heading {
   width: 692px;
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .header__paragraph {
@@ -157,13 +188,23 @@ a:hover {
   padding-bottom: 160px;
 }
 
+.features__bg-wrapper {
+  position: relative;
+}
+
 .features__background {
-  background-image: url("/img/feature-flower-bg.png");
-  background-size: 95%;
-  background-attachment: scroll;
+  /* background-image: url("/img/feature-flower-bg.png");
+  background-size: 55%;
   background-repeat: no-repeat;
-  /* background-position: 151% 112%; */
-  background-position: 388% 105%;
+  background-position: 151% 112%;
+  background-position: 388% 105%; */
+}
+
+.features__flower-bg-wrapper {
+  position: absolute;
+  z-index: -100;
+  left: 3.9%;
+  top: 8%;
 }
 
 .features__heading {
@@ -176,14 +217,17 @@ a:hover {
 
 .features__daily-care-img {
   max-width: 453px;
+  margin-top: 50px;
 }
 
 .features__plant-database-img {
   max-width: 471px;
+  margin-top: 50px;
 }
 
 .features__how-use-app-img {
   max-width: 484px;
+  margin-top: 160px;
 }
 
 .features__text-block-wrapper {
@@ -217,6 +261,10 @@ a:hover {
   margin-right: auto;
 }
 
+.how-to-use__steps_wrapper {
+  margin-top: 160px;
+}
+
 .features__step_first {
   max-width: 120px;
 }
@@ -227,50 +275,20 @@ a:hover {
   margin-right: 70px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .testimonials_background {
   background: #F3FAFE;
 }
 
 .testimonials_padding {
   padding-top: 80px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 .testimonials__heading {
   margin-bottom: 76px;
 }
 
 .testimonials__slider {
-  width: 1240px;
+  width: 1250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -291,7 +309,7 @@ a:hover {
   margin-bottom: 30px;
   margin-top: 30px;
   margin-left: 15px !important;
-  margin-right: 15px !important;
+  margin-right: 10px !important;
   z-index: 100;
   position: relative;
   min-height: 365px;
@@ -335,18 +353,155 @@ a:hover {
   margin-top: 16px;
 }
 
-.footer_padding {
-
+.testimonials__flower-big {
+  max-width: 167px;
+  position: absolute;
+  top: -9%;
+  left: -5%;
+  z-index: 100;
 }
 
+.testimonials__flower-small {
+  max-width: 98px;
+  position: absolute;
+  top: 73%;
+  left: 95%;
+  z-index: 100;
+}
+
+.download_padding {
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+
+.download__iphone-img {
+  max-width: 704px;
+  position: relative;
+  left: -49%;
+}
+
+.download__paragraph {
+  margin-top: 22px;
+  margin-bottom: 41px;
+}
+
+.download__heading {
+  width: 490px;
+}
+
+.social_padding {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.social_background {
+  background: #304343;
+}
+
+.social__plantyx-logo {
+  max-width: 148px;
+}
+
+.social__social-ico-wrapper {
+  width: 92px;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.footer_padding {
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
 
 .footer_background {
-
+  background: #000000;
 }
 
-.footer__heading {
-
+.terms-footer__terms, .terms-footer__terms > a {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
 }
+
+.terms-footer__terms > a:hover {
+  text-decoration: underline;
+}
+
+.footer__copyright {
+  text-align: right;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: rgba(151, 163, 200, 0.5);
+}
+
+.flower-bg-wrapper {
+  position: relative;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.terms-policy__text-wrapper {
+  width: 994px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__terms-policy {
+  margin-top: 91px;
+  padding-bottom: 50px;
+}
+
+.footer__terms-policy-links, .footer__terms-policy-links > a {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #15382F;
+}
+
+.footer__terms-policy-links > a:hover {
+text-decoration: underline;
+}
+
+.terms-policy {
+  padding-top: 115px;
+}
+
+.header__terms-policy {
+  padding-top: 73px;
+}
+
+.header__terms-policy-plantyx-logo {
+  max-width: 183px;
+}
+
+.terms-policy__bg-wrapper {
+  background: url("/img/terms-policy-bg-1.png") no-repeat left top, url("/img/terms-policy-bg-2.png")  no-repeat right top;
+}
+
+.header__terms-policy-logo {
+  display: block;
+  max-width: 994px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__terms-policy-links {
+  max-width: 994px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.policy-list__style > li::before {
+  content: '•';
+  margin-right: 25px;
+  
+}
+
 
 
 
