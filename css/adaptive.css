@@ -10,8 +10,8 @@
       }
 
       ._second-heading-main-font {
-        font-size: 36px;
-        line-height: 47px;
+        font-size: 20px;
+line-height: 24px;
       }
 
       ._paragraph-main-font {
@@ -23,6 +23,7 @@
       ._heading-main-font {
         font-size: 36px;
         line-height: 47px;
+        text-transform: capitalize;
       }
 
       .header__logo {
@@ -32,7 +33,7 @@
 
     .header_padding {
       padding-top: 60px;
-      padding-bottom: 1px;
+      padding-bottom: 398px;
       margin-bottom: 0;
   }
 
@@ -58,24 +59,190 @@
   max-width: 180px;
 }
 
+.header__banner-img {
+    max-width: 623px;
+    position: absolute;
+    left: 1%;
+    transform: translate(-160px, -155px);
+}
 
+.features__heading {
+    margin-bottom: 30px;
+}
 
+.features_second-heading {
+    margin-bottom: 24px;
+    width: 320px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
 
+.features__paragraph {
+    max-width: 335px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.features__plant-identific-img {
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 70px;
+}
 
+.features__daily-care-img {
+    max-width: 335px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 70px;
+}
 
+.features__plant-database-img {
+    max-width: 335px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
+.how-to-use__steps_wrapper {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
+.features__step-wrapper {
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
 
+.features__how-use-app-img {
+    max-width: 335px;
+    margin-top: 74px;
+}
 
+.step > img {
+    max-width: 130px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.features__step {
+    margin-top: 11px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
 
+.step {
+    margin-bottom: 40px;
+    text-align: center;
+}
 
+.features_padding {
+    padding-bottom: 50px;
+}
 
+.testimonials_padding {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
 
+.testimonials__heading {
+    margin-bottom: 35px;
+}
 
+.testimonials__flower-big {
+    max-width: 91px;
+    top: 1%;
+    left: 0%;
+    z-index: 100;
+}
 
+.testimonials__flower-small {
+    max-width: 49px;
+    top: 76%;
+    left: 81.5%;
+    z-index: 100;
+}
 
+.testimonials__slider-item {
+    width: 335px !important;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px !important;
+    margin-right: 10px !important;
+}
+
+.testimonials__slider {
+    width: 375px;
+}
+
+.download__heading {
+    width: 335px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download__paragraph {
+    max-width: 335px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.download__text-section-wrapper {
+    text-align: center;
+}
+
+.download__iphone-img {
+    display: none;
+}
+
+.download_padding {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.social__plantyx-logo {
+    margin-left: 20px;
+}
+
+.social__social-ico-wrapper {
+    margin-right: 26px;
+    height: auto;
+    margin-top: 8px;
+}
+
+.social__plantyx-logo {
+    max-width: 140px;
+}
+
+.social__social-ico-wrapper > img {
+    vertical-align: middle;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+line-height: 17px;
+}
+
+.terms-footer__terms {
+    text-align: center;
+}
       .header__terms-policy-plantyx-logo {
         max-width: 165px;
     }
@@ -127,4 +294,13 @@
       .header__terms-policy {
         padding-top: 60px;
     }
+
+    .terms-policy__main-heading_font {
+        font-size: 36px;
+        line-height: 47px;
+      }
+
+      .features__flower-bg-wrapper {
+          display: none;
+      }
 }

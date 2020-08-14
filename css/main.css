@@ -470,6 +470,14 @@ text-decoration: underline;
   padding-top: 115px;
 }
 
+.terms-policy__main-heading_font {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: capitalize;
+  color: #2E6455;
+}
+
 .header__terms-policy {
   padding-top: 73px;
 }
@@ -499,7 +507,6 @@ text-decoration: underline;
 .policy-list__style > li::before {
   content: '•';
   margin-right: 25px;
-  
 }
 
 

@@ -4,6 +4,11 @@
         margin-bottom: 24px;
     }
 
+    ._second-heading-main-font {
+        font-size: 36px;
+        line-height: 43px; 
+    }
+
     .header_padding {
         padding-top: 40px;
         padding-bottom: 615px;
@@ -188,7 +193,7 @@
 }
 
     ._third-heading-main-font {
-        font-size: 24px;
+        font-size: 28px;
         line-height: 29px;
       }
 
@@ -212,7 +217,7 @@
         margin-right: auto;
       }
 
-      .terms-policy__text-wrapper > p {
+      .terms-policy__text-wrapper > ._paragraph-main-font {
           font-size: 16px !important;
       }
 
@@ -240,5 +245,12 @@
 
       .header__terms-policy {
         padding-top: 48px;
+    }
+    
+    .features__flower-bg-wrapper {
+        position: absolute;
+        z-index: -100;
+        left: -7.1%;
+        top: 5%;
     }
 }
