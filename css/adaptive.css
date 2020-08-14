@@ -59,6 +59,13 @@ line-height: 24px;
   max-width: 180px;
 }
 
+.header__banner-img-wrapper {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
 .header__banner-img {
     max-width: 623px;
     position: absolute;
@@ -186,6 +193,10 @@ line-height: 24px;
 
 .testimonials__slider {
     width: 375px;
+}
+
+.flower-bg-wrapper {
+    max-width: 375px;
 }
 
 .download__heading {

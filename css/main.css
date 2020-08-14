@@ -143,9 +143,10 @@ a:hover {
 
 /*=================================================================*/
 
-.header_background {
-  /* background: url("/img/header-bg.png") no-repeat -36% 93%;
-  background-size: 71%; */
+.header__svg {
+  position: absolute;
+  top: 72%;
+  left: -20%;
 }
 
 .header_padding {

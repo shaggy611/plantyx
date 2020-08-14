@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1140px) {
     .header__logo {
         max-width: 76px;
         margin-bottom: 24px;
@@ -36,6 +36,13 @@
 
     .__app-store-download-button {
         max-width: 210px;
+    }
+
+    .header__banner-img-wrapper {
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
     }
 
     .header__banner-img {
@@ -177,6 +184,10 @@
     display: -webkit-flex;
     display: -moz-box;
     display: flex;
+}
+
+.flower-bg-wrapper {
+    max-width: 768px;
 }
 
 .testimonials__slider-item {
