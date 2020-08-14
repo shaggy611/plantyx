@@ -387,6 +387,11 @@ a:hover {
 
 .download__heading {
   width: 490px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: capitalize;
+  color: #2E6455;
 }
 
 .social_padding {

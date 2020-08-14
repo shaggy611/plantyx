@@ -139,7 +139,12 @@
 
     .download__heading {
         width: 632px;
-    }
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        text-transform: capitalize;
+        color: #2E6455;
+      }
 
     .social__plantyx-logo {
         margin-left: 74px;

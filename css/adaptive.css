@@ -193,6 +193,11 @@ line-height: 24px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-transform: capitalize;
+    color: #2E6455;
 }
 
 .download__paragraph {
