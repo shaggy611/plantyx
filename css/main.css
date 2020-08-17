@@ -61,7 +61,6 @@ body {
 .transition_disabled {
   -webkit-transition: none !important;
   -moz-transition: none !important;
-  -ms-transition: none !important;
   -o-transition: none !important;
   transition: none !important;
 }
@@ -145,8 +144,9 @@ a:hover {
 
 .header__svg {
   position: absolute;
-  top: 72%;
+  top: 72.7%;
   left: -20%;
+  z-index: 100;
 }
 
 .header_padding {
@@ -245,6 +245,10 @@ a:hover {
 }
 
 .features__step-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 45px;
   margin-bottom: 40px;
@@ -302,7 +306,9 @@ a:hover {
 
 .testimonials__slider-item {
   background: #ffffff;
-  box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
+  -webkit-box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
+     -moz-box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
+          box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
   width: 387px !important;
   display: block;
   padding-top: 40px;
@@ -338,7 +344,11 @@ a:hover {
   display: -webkit-flex;
   display: -moz-box;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .testimonials__slider-item-comment {
@@ -411,7 +421,11 @@ a:hover {
 .social__social-ico-wrapper {
   width: 92px;
   margin-left: auto;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer_padding {
@@ -516,5 +530,110 @@ text-decoration: underline;
 }
 
 
+
+svg .line1 {
+  stroke-dasharray: 1300;
+  -webkit-animation: dash 5s linear;
+     -moz-animation: dash 5s linear;
+       -o-animation: dash 5s linear;
+          animation: dash 5s linear;
+  -webkit-animation-delay: 0.2s;
+     -moz-animation-delay: 0.2s;
+       -o-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+          animation-fill-mode: forwards;
+}
+
+svg .line2 {
+  stroke-dasharray: 1300;
+  -webkit-animation: dash 5s linear;
+     -moz-animation: dash 5s linear;
+       -o-animation: dash 5s linear;
+          animation: dash 5s linear;
+  -webkit-animation-delay: 0.5s;
+     -moz-animation-delay: 0.5s;
+       -o-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+          animation-fill-mode: forwards;  
+}
+
+svg .line3 {
+  stroke-dasharray: 1300;
+  -webkit-animation: dash 5s linear;
+     -moz-animation: dash 5s linear;
+       -o-animation: dash 5s linear;
+          animation: dash 5s linear;
+  -webkit-animation-delay: 0.9s;
+     -moz-animation-delay: 0.9s;
+       -o-animation-delay: 0.9s;
+          animation-delay: 0.9s; 
+          animation-fill-mode: forwards; 
+}
+
+svg .line4 {
+  stroke-dasharray: 1300;
+  -webkit-animation: dash 2s linear running;
+     -moz-animation: dash 2s linear running;
+       -o-animation: dash 2s linear running;
+          animation: dash 2s linear running;
+  -webkit-animation-delay: 1.7s;
+     -moz-animation-delay: 1.7s;
+       -o-animation-delay: 1.7s;
+          animation-delay: 1.7s;  
+          animation-fill-mode: forwards;
+}
+
+svg .line5 {
+  stroke-dasharray: 1300;
+  -webkit-animation: dash 5s linear;
+     -moz-animation: dash 5s linear;
+       -o-animation: dash 5s linear;
+          animation: dash 5s linear;
+  -webkit-animation-delay: 3.7s;
+     -moz-animation-delay: 3.7s;
+       -o-animation-delay: 3.7s;
+          animation-delay: 3.7s;  
+          animation-fill-mode: forwards;
+} 
+
+svg .line6 {
+  stroke-dasharray: 1300;
+  -webkit-animation: dash 5s linear;
+     -moz-animation: dash 5s linear;
+       -o-animation: dash 5s linear;
+          animation: dash 5s linear;
+  -webkit-animation-delay: 4.7s;
+     -moz-animation-delay: 4.7s;
+       -o-animation-delay: 4.7s;
+          animation-delay: 4.7s; 
+          animation-fill-mode: forwards; 
+} 
+
+svg .line7 {
+  stroke-dasharray: 1300;
+  -webkit-animation: dash 2s linear;
+     -moz-animation: dash 2s linear;
+       -o-animation: dash 2s linear;
+          animation: dash 2s linear;
+  -webkit-animation-delay: 5.3s;
+     -moz-animation-delay: 5.3s;
+       -o-animation-delay: 5.3s;
+          animation-delay: 5.3s; 
+          animation-fill-mode: forwards; 
+          
+} 
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1300;
+    fill-opacity: 0;
+    stroke: #01C3B7;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+    stroke: #01C3B7;
+  }
+}
 
 
