@@ -179,7 +179,7 @@ a:hover {
 }
 
 .features_padding {
-  padding-top: 160px;
+  padding-top: 343px;
   padding-bottom: 160px;
 }
 
@@ -624,16 +624,24 @@ svg .line7 {
 
 .svg-container {
     position: absolute;
-    width: 68%;
+    width: 1280px;
     padding-bottom: 1px;
     vertical-align: middle;
     overflow: hidden;
-    top: 60%;
-    left: 13%;
+    top: 71%;
+    left: -8%;
     z-index: 100;
+    margin-left: 10px;
+    /* left: -53%; */
+    /* z-index: 100;
+    transform: translateX(53%); */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display: flex;
+    align-items: center; */
   }
 
-  .header {
+  .container-relative {
     position: relative;
   }
 
@@ -652,7 +660,7 @@ svg .line7 {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
+/* @media (min-width: 1200px) and (max-width: 1400px) {
   .header__banner-img {
     width: 1060px;
     position: absolute;
@@ -722,6 +730,6 @@ svg .line7 {
   svg .line2 {
     display: none;  
   }
-}
+} */
 
 
