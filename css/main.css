@@ -150,10 +150,11 @@ a:hover {
 
 .header__banner-img-wrapper {
   /* position: relative; */
+  width: 100%;
 }
 
 .header__banner-img {
-  max-width: 1360px;
+  width: 1360px;
   position: absolute;
   top: -80%;
   left: -110%;
@@ -531,10 +532,10 @@ text-decoration: underline;
 
 svg .line1 {
   stroke-dasharray: 1300;
-  -webkit-animation: dash 5s linear;
-     -moz-animation: dash 5s linear;
-       -o-animation: dash 5s linear;
-          animation: dash 5s linear;
+  -webkit-animation: dash 3s linear;
+     -moz-animation: dash 3s linear;
+       -o-animation: dash 3s linear;
+          animation: dash 3s linear;
   -webkit-animation-delay: 0.2s;
      -moz-animation-delay: 0.2s;
        -o-animation-delay: 0.2s;
@@ -544,10 +545,10 @@ svg .line1 {
 
 svg .line2 {
   stroke-dasharray: 1300;
-  -webkit-animation: dash 5s linear;
-     -moz-animation: dash 5s linear;
-       -o-animation: dash 5s linear;
-          animation: dash 5s linear;
+  -webkit-animation: dash 3s linear;
+     -moz-animation: dash 3s linear;
+       -o-animation: dash 3s linear;
+          animation: dash 3s linear;
   -webkit-animation-delay: 0.5s;
      -moz-animation-delay: 0.5s;
        -o-animation-delay: 0.5s;
@@ -557,10 +558,10 @@ svg .line2 {
 
 svg .line3 {
   stroke-dasharray: 1300;
-  -webkit-animation: dash 5s linear;
-     -moz-animation: dash 5s linear;
-       -o-animation: dash 5s linear;
-          animation: dash 5s linear;
+  -webkit-animation: dash 3s linear;
+     -moz-animation: dash 3s linear;
+       -o-animation: dash 3s linear;
+          animation: dash 3s linear;
   -webkit-animation-delay: 0.9s;
      -moz-animation-delay: 0.9s;
        -o-animation-delay: 0.9s;
@@ -570,74 +571,70 @@ svg .line3 {
 
 svg .line4 {
   stroke-dasharray: 1300;
-  -webkit-animation: dash 2s linear running;
-     -moz-animation: dash 2s linear running;
-       -o-animation: dash 2s linear running;
-          animation: dash 2s linear running;
-  -webkit-animation-delay: 1.7s;
-     -moz-animation-delay: 1.7s;
-       -o-animation-delay: 1.7s;
-          animation-delay: 1.7s;  
+  -webkit-animation: dash 1s linear running;
+     -moz-animation: dash 1s linear running;
+       -o-animation: dash 1s linear running;
+          animation: dash 1s linear running;
+  -webkit-animation-delay: 1.3s;
+     -moz-animation-delay: 1.3s;
+       -o-animation-delay: 1.3s;
+          animation-delay: 1.3s;  
           animation-fill-mode: forwards;
 }
 
 svg .line5 {
   stroke-dasharray: 1300;
-  -webkit-animation: dash 5s linear;
-     -moz-animation: dash 5s linear;
-       -o-animation: dash 5s linear;
-          animation: dash 5s linear;
-  -webkit-animation-delay: 3.7s;
-     -moz-animation-delay: 3.7s;
-       -o-animation-delay: 3.7s;
-          animation-delay: 3.7s;  
+  -webkit-animation: dash 3s linear;
+     -moz-animation: dash 3s linear;
+       -o-animation: dash 3s linear;
+          animation: dash 3s linear;
+  -webkit-animation-delay: 2.3s;
+     -moz-animation-delay: 2.3s;
+       -o-animation-delay: 2.3s;
+          animation-delay: 2.3s;  
           animation-fill-mode: forwards;
 } 
 
 svg .line6 {
   stroke-dasharray: 1300;
-  -webkit-animation: dash 5s linear;
-     -moz-animation: dash 5s linear;
-       -o-animation: dash 5s linear;
-          animation: dash 5s linear;
-  -webkit-animation-delay: 4.7s;
-     -moz-animation-delay: 4.7s;
-       -o-animation-delay: 4.7s;
-          animation-delay: 4.7s; 
+  -webkit-animation: dash 3s linear;
+     -moz-animation: dash 3s linear;
+       -o-animation: dash 3s linear;
+          animation: dash 3s linear;
+  -webkit-animation-delay: 2.8s;
+     -moz-animation-delay: 2.8s;
+       -o-animation-delay: 2.8s;
+          animation-delay: 2.8s; 
           animation-fill-mode: forwards; 
 } 
 
 svg .line7 {
   stroke-dasharray: 1300;
-  -webkit-animation: dash 2s linear;
-     -moz-animation: dash 2s linear;
-       -o-animation: dash 2s linear;
-          animation: dash 2s linear;
-  -webkit-animation-delay: 5.3s;
-     -moz-animation-delay: 5.3s;
-       -o-animation-delay: 5.3s;
-          animation-delay: 5.3s; 
-          animation-fill-mode: forwards; 
-          
+  -webkit-animation: dash 1s linear;
+     -moz-animation: dash 1s linear;
+       -o-animation: dash 1s linear;
+          animation: dash 1s linear;
+  -webkit-animation-delay: 3.2s;
+     -moz-animation-delay: 3.2s;
+       -o-animation-delay: 3.2s;
+          animation-delay: 3.2s; 
+          animation-fill-mode: forwards;
+           
 } 
 
 .svg-container {
-  display: inline-block;
-  position: absolute;
-  width: 81%;
-  padding-bottom: 100%;
-  vertical-align: middle;
-  overflow: hidden;
+    position: absolute;
+    width: 68%;
+    padding-bottom: 1px;
+    vertical-align: middle;
+    overflow: hidden;
+    top: 60%;
+    left: 13%;
+    z-index: 100;
   }
 
-  .header__svg {
-    position: absolute;
-    top: 25%;
-    left: 15%;
-    z-index: 100;
-    display: inline-block;
-    /* top: 0;
-    left: 0; */
+  .header {
+    position: relative;
   }
 
 
@@ -651,6 +648,79 @@ svg .line7 {
     stroke-dashoffset: 0;
     fill-opacity: 1;
     stroke: #01C3B7;
+    fill:#01c3b7;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .header__banner-img {
+    width: 1060px;
+    position: absolute;
+    top: -52%;
+    left: -65%;
+  }
+
+  .svg-container {
+    position: absolute;
+    width: 88%;
+    padding-bottom: 1px;
+    vertical-align: middle;
+    overflow: hidden;
+    top: 61%;
+    left: 8%;
+    z-index: 100;
+  }
+  
+  svg .line2 {
+    display: none;  
+  }
+
+  svg .line3 {
+    stroke-dasharray: 1300;
+    -webkit-animation: dash 2s linear;
+       -moz-animation: dash 2s linear;
+         -o-animation: dash 2s linear;
+            animation: dash 2s linear;
+    -webkit-animation-delay: 0.5s;
+       -moz-animation-delay: 0.5s;
+         -o-animation-delay: 0.5s;
+            animation-delay: 0.5s; 
+            animation-fill-mode: forwards; 
+  }
+
+  svg .line1 {
+    stroke-dasharray: 1300;
+    -webkit-animation: dash 2s linear;
+       -moz-animation: dash 2s linear;
+         -o-animation: dash 2s linear;
+            animation: dash 2s linear;
+    -webkit-animation-delay: 0.2s;
+       -moz-animation-delay: 0.2s;
+         -o-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+            animation-fill-mode: forwards;
+  }
+  
+}
+
+@media (min-width: 1401px) and (max-width: 1700px) {
+  .svg-container {
+    position: absolute;
+    width: 88%;
+    padding-bottom: 1px;
+    vertical-align: middle;
+    overflow: hidden;
+    top: 60.5%;
+    left: 4.5%;
+    z-index: 100;
+  }
+
+  svg .line1 {
+    display: none;
+  }
+  
+  svg .line2 {
+    display: none;  
   }
 }
 
