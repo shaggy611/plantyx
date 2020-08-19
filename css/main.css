@@ -55,7 +55,7 @@ button:focus,
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .transition_disabled {
@@ -69,28 +69,28 @@ body {
   font-weight: bold;
   font-size: 69px;
   line-height: 83px;
-  color: #2E6455;
+  color: #2e6455;
 }
 
 ._paragraph-main-font {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  color: #15382F;
+  color: #15382f;
 }
 
 ._second-heading-main-font {
   font-weight: bold;
   font-size: 48px;
   line-height: 58px;
-  color: #2E6455;
+  color: #2e6455;
 }
 
 ._third-heading-main-font {
   font-weight: bold;
   font-size: 28px;
   line-height: 34px;
-  color: #2E6455;
+  color: #2e6455;
 }
 
 ._margin-top-60 {
@@ -172,7 +172,6 @@ a:hover {
   max-width: 119px;
   margin-bottom: 40px;
 }
-
 
 .header__heading {
   width: 692px;
@@ -262,7 +261,7 @@ a:hover {
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #15382F;
+  color: #15382f;
   margin-top: 20px;
   max-width: 130px;
   display: block;
@@ -288,7 +287,7 @@ a:hover {
 }
 
 .testimonials_background {
-  background: #F3FAFE;
+  background: #f3fafe;
 }
 
 .testimonials_padding {
@@ -316,8 +315,8 @@ a:hover {
 .testimonials__slider-item {
   background: #ffffff;
   -webkit-box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
-     -moz-box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
-          box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
+  -moz-box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
+  box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
   width: 387px !important;
   display: block;
   padding-top: 40px;
@@ -342,7 +341,7 @@ a:hover {
   font-size: 22px;
   line-height: 28px;
   text-align: center;
-  color: #2E6455;
+  color: #2e6455;
   margin-top: 16px;
   margin-bottom: 12px;
 }
@@ -355,9 +354,9 @@ a:hover {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .testimonials__slider-item-comment {
@@ -366,7 +365,7 @@ a:hover {
   font-size: 18px;
   line-height: 150%;
   text-align: center;
-  color: #15382F;
+  color: #15382f;
   opacity: 0.8;
   margin-left: auto;
   margin-right: auto;
@@ -411,7 +410,7 @@ a:hover {
   font-size: 48px;
   line-height: 58px;
   text-transform: capitalize;
-  color: #2E6455;
+  color: #2e6455;
 }
 
 .social_padding {
@@ -432,9 +431,9 @@ a:hover {
   margin-left: auto;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .footer_padding {
@@ -446,11 +445,12 @@ a:hover {
   background: #000000;
 }
 
-.terms-footer__terms, .terms-footer__terms > a {
+.terms-footer__terms,
+.terms-footer__terms > a {
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .terms-footer__terms > a:hover {
@@ -484,15 +484,16 @@ a:hover {
   padding-bottom: 50px;
 }
 
-.footer__terms-policy-links, .footer__terms-policy-links > a {
+.footer__terms-policy-links,
+.footer__terms-policy-links > a {
   font-weight: normal;
   font-size: 18px;
   line-height: 150%;
-  color: #15382F;
+  color: #15382f;
 }
 
 .footer__terms-policy-links > a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .terms-policy {
@@ -504,7 +505,7 @@ text-decoration: underline;
   font-size: 48px;
   line-height: 58px;
   text-transform: capitalize;
-  color: #2E6455;
+  color: #2e6455;
 }
 
 .header__terms-policy {
@@ -516,7 +517,8 @@ text-decoration: underline;
 }
 
 .terms-policy__bg-wrapper {
-  background: url("/img/terms-policy-bg-1.png") no-repeat left top, url("/img/terms-policy-bg-2.png")  no-repeat right top;
+  background: url("/img/terms-policy-bg-1.png") no-repeat left top,
+    url("/img/terms-policy-bg-2.png") no-repeat right top;
 }
 
 .header__terms-policy-logo {
@@ -534,7 +536,7 @@ text-decoration: underline;
 }
 
 .policy-list__style > li::before {
-  content: '•';
+  content: "•";
   margin-right: 25px;
 }
 
@@ -548,123 +550,184 @@ text-decoration: underline;
 svg .line1 {
   stroke-dasharray: 1300;
   -webkit-animation: dash 3s linear;
-     -moz-animation: dash 3s linear;
-       -o-animation: dash 3s linear;
-          animation: dash 3s linear;
+  -moz-animation: dash 3s linear;
+  -o-animation: dash 3s linear;
+  animation: dash 3s linear;
   -webkit-animation-delay: 0.2s;
-     -moz-animation-delay: 0.2s;
-       -o-animation-delay: 0.2s;
-          animation-delay: 0.2s;
-          animation-fill-mode: forwards;
+  -moz-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 svg .line2 {
   stroke-dasharray: 1300;
   -webkit-animation: dash 3s linear;
-     -moz-animation: dash 3s linear;
-       -o-animation: dash 3s linear;
-          animation: dash 3s linear;
+  -moz-animation: dash 3s linear;
+  -o-animation: dash 3s linear;
+  animation: dash 3s linear;
   -webkit-animation-delay: 0.5s;
-     -moz-animation-delay: 0.5s;
-       -o-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-          animation-fill-mode: forwards;  
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 svg .line3 {
   stroke-dasharray: 1300;
   -webkit-animation: dash 3s linear;
-     -moz-animation: dash 3s linear;
-       -o-animation: dash 3s linear;
-          animation: dash 3s linear;
+  -moz-animation: dash 3s linear;
+  -o-animation: dash 3s linear;
+  animation: dash 3s linear;
   -webkit-animation-delay: 0.9s;
-     -moz-animation-delay: 0.9s;
-       -o-animation-delay: 0.9s;
-          animation-delay: 0.9s; 
-          animation-fill-mode: forwards; 
+  -moz-animation-delay: 0.9s;
+  -o-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 svg .line4 {
   stroke-dasharray: 1300;
   -webkit-animation: dash 1s linear running;
-     -moz-animation: dash 1s linear running;
-       -o-animation: dash 1s linear running;
-          animation: dash 1s linear running;
+  -moz-animation: dash 1s linear running;
+  -o-animation: dash 1s linear running;
+  animation: dash 1s linear running;
   -webkit-animation-delay: 1.3s;
-     -moz-animation-delay: 1.3s;
-       -o-animation-delay: 1.3s;
-          animation-delay: 1.3s;  
-          animation-fill-mode: forwards;
+  -moz-animation-delay: 1.3s;
+  -o-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 svg .line5 {
   stroke-dasharray: 1300;
   -webkit-animation: dash 3s linear;
-     -moz-animation: dash 3s linear;
-       -o-animation: dash 3s linear;
-          animation: dash 3s linear;
+  -moz-animation: dash 3s linear;
+  -o-animation: dash 3s linear;
+  animation: dash 3s linear;
   -webkit-animation-delay: 2.3s;
-     -moz-animation-delay: 2.3s;
-       -o-animation-delay: 2.3s;
-          animation-delay: 2.3s;  
-          animation-fill-mode: forwards;
-} 
+  -moz-animation-delay: 2.3s;
+  -o-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
 
 svg .line6 {
   stroke-dasharray: 1300;
   -webkit-animation: dash 3s linear;
-     -moz-animation: dash 3s linear;
-       -o-animation: dash 3s linear;
-          animation: dash 3s linear;
+  -moz-animation: dash 3s linear;
+  -o-animation: dash 3s linear;
+  animation: dash 3s linear;
   -webkit-animation-delay: 2.8s;
-     -moz-animation-delay: 2.8s;
-       -o-animation-delay: 2.8s;
-          animation-delay: 2.8s; 
-          animation-fill-mode: forwards; 
-} 
+  -moz-animation-delay: 2.8s;
+  -o-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
 
 svg .line7 {
   stroke-dasharray: 1300;
   -webkit-animation: dash 0.3s linear;
-     -moz-animation: dash 0.3s linear;
-       -o-animation: dash 0.3s linear;
-          animation: dash 0.3s linear;
+  -moz-animation: dash 0.3s linear;
+  -o-animation: dash 0.3s linear;
+  animation: dash 0.3s linear;
   -webkit-animation-delay: 3.2s;
-     -moz-animation-delay: 3.2s;
-       -o-animation-delay: 3.2s;
-          animation-delay: 3.2s; 
-          animation-fill-mode: forwards;
-           
-} 
+  -moz-animation-delay: 3.2s;
+  -o-animation-delay: 3.2s;
+  animation-delay: 3.2s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
 
 .svg-container {
-    position: absolute;
-    width: 1280px;
-    padding-bottom: 1px;
-    vertical-align: middle;
-    overflow: hidden;
-    top: 71%;
-    left: -8%;
-    z-index: 100;
-    margin-left: 10px;
-  }
+  position: absolute;
+  width: 1280px;
+  padding-bottom: 1px;
+  vertical-align: middle;
+  overflow: hidden;
+  top: 71%;
+  left: -8%;
+  z-index: 100;
+  margin-left: 10px;
+}
 
-  .container-relative {
-    position: relative;
-  }
+.container-relative {
+  position: relative;
+}
 
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1300;
+    fill-opacity: 0;
+    stroke: #01c3b7;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+    stroke: #01c3b7;
+    fill: #01c3b7;
+  }
+}
+
+@-moz-keyframes dash {
+  from {
+    stroke-dashoffset: 1300;
+    fill-opacity: 0;
+    stroke: #01c3b7;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+    stroke: #01c3b7;
+    fill: #01c3b7;
+  }
+}
+
+@-o-keyframes dash {
+  from {
+    stroke-dashoffset: 1300;
+    fill-opacity: 0;
+    stroke: #01c3b7;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+    stroke: #01c3b7;
+    fill: #01c3b7;
+  }
+}
 
 @keyframes dash {
   from {
     stroke-dashoffset: 1300;
     fill-opacity: 0;
-    stroke: #01C3B7;
+    stroke: #01c3b7;
   }
   to {
     stroke-dashoffset: 0;
     fill-opacity: 1;
-    stroke: #01C3B7;
-    fill:#01c3b7;
+    stroke: #01c3b7;
+    fill: #01c3b7;
   }
 }
 
@@ -674,19 +737,19 @@ svg .line7 {
     position: absolute;
     top: -61%;
     left: -72%;
-}
+  }
 
-.svg-container {
-  position: absolute;
-  width: 1146px;
-  padding-bottom: 1px;
-  vertical-align: middle;
-  overflow: hidden;
-  top: 74%;
-  left: 3%;
-  z-index: 100;
-  margin-left: 10px;
-}
+  .svg-container {
+    position: absolute;
+    width: 1146px;
+    padding-bottom: 1px;
+    vertical-align: middle;
+    overflow: hidden;
+    top: 74%;
+    left: 3%;
+    z-index: 100;
+    margin-left: 10px;
+  }
 }
 /*
   svg .line3 {
@@ -737,5 +800,3 @@ svg .line7 {
     display: none;  
   }
 } */
-
-
