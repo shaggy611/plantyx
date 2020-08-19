@@ -113,6 +113,14 @@ body {
   margin-top: 50px;
 }
 
+._margin-left-115 {
+  margin-left: 115px;
+}
+
+._margin-left-50 {
+  margin-left: 90px;
+}
+
 section {
   position: relative;
 }
@@ -144,8 +152,8 @@ a:hover {
 
 .header_padding {
   padding-top: 138px;
-  padding-bottom: 217px;
-  margin-bottom: 24px;
+  /* padding-bottom: 217px;
+  margin-bottom: 24px; */
 }
 
 .header__banner-img-wrapper {
@@ -198,7 +206,7 @@ a:hover {
 .features__flower-bg-wrapper {
   position: absolute;
   z-index: -100;
-  left: 3.9%;
+  left: 8.9%;
   top: 8%;
 }
 
@@ -213,6 +221,7 @@ a:hover {
 .features__daily-care-img {
   max-width: 453px;
   margin-top: 50px;
+  margin-left: 135px;
 }
 
 .features__plant-database-img {
@@ -235,7 +244,7 @@ a:hover {
 }
 
 .features__paragraph {
-  max-width: 488px;
+  width: 488px;
 }
 
 .features__step-wrapper {
@@ -264,6 +273,10 @@ a:hover {
   margin-top: 160px;
 }
 
+.how-to-use__steps_wrapper > .features__paragraph {
+  width: 590px;
+}
+
 .features__step_first {
   max-width: 120px;
 }
@@ -283,7 +296,9 @@ a:hover {
   padding-bottom: 25px;
 }
 .testimonials__heading {
-  margin-bottom: 76px;
+  margin-bottom: 46px;
+  font-size: 48px;
+  line-height: 58px;
 }
 
 .testimonials__slider {
@@ -610,10 +625,10 @@ svg .line6 {
 
 svg .line7 {
   stroke-dasharray: 1300;
-  -webkit-animation: dash 1s linear;
-     -moz-animation: dash 1s linear;
-       -o-animation: dash 1s linear;
-          animation: dash 1s linear;
+  -webkit-animation: dash 0.3s linear;
+     -moz-animation: dash 0.3s linear;
+       -o-animation: dash 0.3s linear;
+          animation: dash 0.3s linear;
   -webkit-animation-delay: 3.2s;
      -moz-animation-delay: 3.2s;
        -o-animation-delay: 3.2s;
@@ -639,7 +654,7 @@ svg .line7 {
   }
 
 
-@-webkit-keyframes dash {
+@keyframes dash {
   from {
     stroke-dashoffset: 1300;
     fill-opacity: 0;
