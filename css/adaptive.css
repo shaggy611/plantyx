@@ -1,4 +1,8 @@
 @media (min-width: 375px) and (max-width: 767px) {
+    .slick-dots {
+        bottom: -45px !important;
+    }
+
   ._third-heading-main-font {
     font-size: 20px;
     line-height: 24px;
@@ -145,7 +149,7 @@
   }
 
   .features__step {
-    margin-top: 11px;
+    margin-top: 4px;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -163,7 +167,7 @@
 
   .testimonials_padding {
     padding-top: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
   }
 
   .testimonials__heading {
@@ -179,7 +183,7 @@
 
   .testimonials__flower-small {
     max-width: 49px;
-    top: 76%;
+    top: 87%;
     left: 81.5%;
     z-index: 100;
   }

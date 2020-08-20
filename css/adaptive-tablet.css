@@ -1,4 +1,9 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    .slick-dots {
+        bottom: -73px !important;
+    }
+
   ._margin-left-115 {
     margin-left: 0;
   }
@@ -146,7 +151,7 @@
 
   .testimonials_padding {
     padding-top: 70px;
-    padding-bottom: 45px;
+    padding-bottom: 65px;
   }
 
   .download__iphone-img {

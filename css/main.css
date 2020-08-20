@@ -262,7 +262,7 @@ a:hover {
   line-height: 22px;
   text-align: center;
   color: #15382f;
-  margin-top: 20px;
+  margin-top: 6px;
   max-width: 130px;
   display: block;
   margin-right: auto;
@@ -292,7 +292,7 @@ a:hover {
 
 .testimonials_padding {
   padding-top: 80px;
-  padding-bottom: 25px;
+  padding-bottom: 60px;
 }
 .testimonials__heading {
   margin-bottom: 46px;
@@ -327,7 +327,7 @@ a:hover {
   margin-right: 10px !important;
   z-index: 100;
   position: relative;
-  min-height: 365px;
+  min-height: 418px;
   height: auto;
   text-align: center;
 }
@@ -383,7 +383,7 @@ a:hover {
 .testimonials__flower-small {
   max-width: 98px;
   position: absolute;
-  top: 73%;
+  top: 83%;
   left: 95%;
   z-index: 100;
 }
