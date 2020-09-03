@@ -270,6 +270,7 @@
 
   .terms-policy {
     padding-top: 59px;
+    padding-bottom: 40px;
   }
 
   .footer__terms-policy {
@@ -309,11 +310,11 @@
 
   .terms-policy__bg-wrapper {
     background: url("/img/terms-policy-bg-2.png") no-repeat;
-    background-position: 105% -0.1%;
-    -webkit-background-size: 68% 68%;
-    -moz-background-size: 68%;
-    -o-background-size: 68%;
-    background-size: 68%;
+    background-position: 194% -4.1%;
+    -webkit-background-size: 82% 82%;
+    -moz-background-size: 82%;
+    -o-background-size: 82%;
+    background-size: 82%;
   }
 
   .header__terms-policy {
@@ -327,6 +328,30 @@
 
   .features__flower-bg-wrapper {
     display: none;
+  }
+
+  .not-found {
+    margin-bottom: 20px;
+  }
+
+  .error-text {
+    font-size: 16px;
+    width: 235px;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .error-block-404 {
+    padding-top: 120px;
+  }
+
+  .error-block-button {
+    margin-top: 56px;
+  }
+
+  .terms-policy-footer-wrapper-for-width {
+    width: 372px;
   }
 
   svg .line1 {

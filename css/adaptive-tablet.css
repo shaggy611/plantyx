@@ -271,6 +271,7 @@
 
   .terms-policy {
     padding-top: 79px;
+    padding-bottom: 60px;
   }
 
   .footer__terms-policy {
@@ -295,6 +296,35 @@
     z-index: -100;
     left: -7.1%;
     top: 5%;
+  }
+
+  .not-found {
+    margin-bottom: 20px;
+  }
+
+  .error-text {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .error-block-button {
+    margin-top: 40px;
+  }
+
+  .error-block-404 {
+    padding-top: 95px;
+  }
+
+  .terms-policy-footer-wrapper-for-width {
+    width: 688px;
+  }
+
+  .terms-policy-footer-margin-left {
+    margin-left: 0;
+  }
+
+  .terms-policy-footer-margin-right {
+    margin-right: 0;
   }
 
   svg .line1 {
