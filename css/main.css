@@ -142,10 +142,12 @@ a:hover {
 
 .__app-store-download-button {
   max-width: 285px;
+  z-index: 100 !important;
 }
 
 ._app-store-btn {
   padding: 0 !important;
+  z-index: 100;
 }
 
 /*=================================================================*/
@@ -166,6 +168,7 @@ a:hover {
   position: absolute;
   top: -80%;
   left: -110%;
+  z-index: -1000 !important;
 }
 
 .header__logo {
@@ -589,6 +592,14 @@ a:hover {
 
 .terms-policy-footer-wrapper-for-width {
   width: 994px;
+}
+
+.svg-container {
+  z-index: -100 !important;
+}
+
+svg {
+  z-index: -100 !important;
 }
 
 svg .line1 {
